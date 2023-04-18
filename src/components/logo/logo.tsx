@@ -1,21 +1,22 @@
 import React, { FC } from 'react'
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
+
+import Image from 'next/image'
 
 interface Props {
   onClick?: () => void
   variant?: 'primary' | 'secondary'
 }
 
-const Logo: FC<Props> = ({ onClick, variant }) => {
+const Logo: FC<Props> = ({ onClick }) => {
   return (
     <Box onClick={onClick}>
-      <Typography
-        variant="h4"
-        component="h1"
-        sx={{ fontWeight: 700, '& span': { color: variant === 'primary' ? 'primary.main' : 'unset' } }}
-      >
-        <span>C</span>onsult ST Engenharia
-      </Typography>
+      <Image
+        src="/images/Consult-ST-Engenharia-Logo.png"
+        alt="Consult ST Engenharia Logo"
+        width={200}
+        height={65}
+      />
     </Box>
   )
 }
