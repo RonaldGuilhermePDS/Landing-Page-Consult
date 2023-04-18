@@ -136,19 +136,29 @@ const HomeHero: FC = () => {
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    "Empresa de Consultoria e Prestação de Serviços na área de Saúde, Segurança do Trabalho e Meio Ambiente, no âmbito gerencial, administrativo e operacional. Presente no mercado desde 2010."
+                  }
+                </Typography>
+                <Typography sx={{ margin: 1 }}>
+                  {
+                    ""
+                  }
+                </Typography>
+                <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
+                  {
+                    "Oferencendo soluções inteligentes para nossos clientes, agregando valores aos serviços executados e garantindo satisfação e salubridade do processo."
                   }
                 </Typography>
               </Box>
               <Box sx={{ '& button': { mr: 2 } }}>
                 <ScrollLink to="popular-course" spy={true} smooth={true} offset={0} duration={350}>
                   <StyledButton color="primary" size="large" variant="contained">
-                    Get Started
+                    Vamos lá
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
                   <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
-                    Watch Video
+                    Vídeo de Apresentação
                   </StyledButton>
                 </ScrollLink>
               </Box>
