@@ -70,9 +70,11 @@ const HomeHero: FC = () => {
                     fontSize: { xs: 40, md: 72 },
                     letterSpacing: 1.5,
                     fontWeight: 'bold',
-                    lineHeight: 1.3,
+                    lineHeight: 1,
                   }}
                 >
+                  Sua<br />
+                  
                   <Typography
                     component="mark"
                     sx={{
@@ -83,35 +85,29 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
-                    Improve{' '}
-                    <Box
-                      sx={{
-                        position: 'absolute',
-                        top: { xs: 24, md: 34 },
-                        left: 2,
-                        transform: 'rotate(3deg)',
-                        '& img': { width: { xs: 146, md: 210 }, height: 'auto' },
-                      }}
-                    >
-                    </Box>
+                  segurança<br />
                   </Typography>
-                  your{' '}
+                  
+                  é nossa maior<br />
+                  
                   <Typography
-                    component="span"
+                    component="mark"
                     sx={{
+                      position: 'relative',
+                      color: 'primary.main',
                       fontSize: 'inherit',
                       fontWeight: 'inherit',
-                      position: 'relative',
+                      backgroundColor: 'unset',
                       '& svg': {
                         position: 'absolute',
-                        top: -16,
-                        right: -21,
-                        width: { xs: 22, md: 30 },
+                        top: -10,
+                        right: -20,
+                        width: { xs: 30, md: 30 },
                         height: 'auto',
                       },
                     }}
                   >
-                    Skill
+                    conquista
                     <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
@@ -128,9 +124,7 @@ const HomeHero: FC = () => {
                         />
                       </g>
                     </svg>
-                  </Typography>{' '}
-                  <br />
-                  with Different Way
+                  </Typography>
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
