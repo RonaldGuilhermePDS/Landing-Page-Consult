@@ -196,10 +196,10 @@ const HomeHero: FC = () => {
                   component="h6"
                   sx={{ color: 'secondary.main', fontSize: '1.1rem', fontWeight: 700, mb: 0.5 }}
                 >
-                  Certificate
+                  Certificações
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  There are certificates for all courses.
+                  Há certificações para todos os treinamentos.
                 </Typography>
               </Box>
             </Box>
