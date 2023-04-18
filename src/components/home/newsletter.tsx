@@ -18,10 +18,10 @@ const HomeNewsLetter: FC = () => {
             textAlign: 'center',
           }}
         >
-          <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
+          <Typography color="primary.contrastText" variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
             Subscribe to Our News Letter
           </Typography>
-          <Typography sx={{ mb: 6 }}>Subscribe to our newsletter to get information about our courses.</Typography>
+          <Typography color="primary.contrastText" sx={{ mb: 6 }}>Subscribe to our newsletter to get information about our courses.</Typography>
 
           <Box
             sx={{
