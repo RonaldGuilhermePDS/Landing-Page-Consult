@@ -25,7 +25,7 @@ const Header: FC = () => {
           </Box>
           <Box
             sx={{
-              width: '100%',
+              width: '75%',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'space-between',
@@ -43,7 +43,7 @@ const Header: FC = () => {
               }),
             }}
           >
-            <Box /> {/* Magic space */}
+            <Box />
             <Navigation />
             {visibleMenu && matchMobileView && (
               <IconButton
