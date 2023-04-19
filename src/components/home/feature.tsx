@@ -24,13 +24,13 @@ const BorderLinearProgress = styled(LinearProgress, {
   [`& .${linearProgressClasses.bar}`]: {
     borderRadius: 5,
     ...(order === 1 && {
-      backgroundColor: '#f303ff',
+      backgroundColor: 'primary',
     }),
     ...(order === 2 && {
-      backgroundColor: '#26e8bd',
+      backgroundColor: 'primary',
     }),
     ...(order === 3 && {
-      backgroundColor: '#0063ff',
+      backgroundColor: 'primary',
     }),
   },
 }))
@@ -58,25 +58,25 @@ const HomeFeature: FC = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+                  Estados
                 </Typography>
                 <Box sx={{ mb: 2 }}>
-                  <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                  <Typography variant="subtitle1">
+                    Maranhão
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
+                  <BorderLinearProgress variant="determinate" value={90} order={4} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
-                  <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                  <Typography variant="subtitle1">
+                    Pará
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
+                  <BorderLinearProgress variant="determinate" value={80} order={4} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
-                  <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                  <Typography variant="subtitle1">
+                    Piauí
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                  <BorderLinearProgress variant="determinate" value={70} order={4} />
                 </Box>
               </Box>
 
@@ -103,9 +103,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Satisfação</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    Índice de satisfação
                   </Typography>
                   <Box
                     sx={{
@@ -117,22 +117,22 @@ const HomeFeature: FC = () => {
                       flexDirection: 'column',
                     }}
                   >
-                    <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                    <Typography variant="h4" sx={{ color: 'primary.main' }}>
+                      90%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
                       thickness={2}
                       variant="determinate"
-                      value={85}
+                      value={100}
                       size={85}
                     />
                     <CircularProgress
                       thickness={2}
                       variant="determinate"
-                      value={75}
+                      value={90}
                       size={85}
-                      sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
+                      sx={{ transform: 'rotate(96deg) !important', color: 'primary.main', position: 'absolute' }}
                     />
                   </Box>
                 </Box>
@@ -152,28 +152,16 @@ const HomeFeature: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Make your{' '}
-              <Typography
-                component="mark"
-                sx={{
-                  position: 'relative',
-                  color: 'primary.main',
-                  fontSize: 'inherit',
-                  fontWeight: 'inherit',
-                  backgroundColor: 'unset',
-                }}
-              >
-                Learning <br />
-              </Typography>
-              Enjoyable
+              Como atuamos?
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+              Visamos muito mais que oferecer uma prestação de serviços neste segmento.
+              <br />
+              Fazemos de maneira diferenciada, agregando valores para clientes, empreendedores, colaboradores e às comunidades.
             </Typography>
 
-            <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>
+            <Grid container spacing={1} sx={{ ml: { xs: 0, md: 2 } }}>
               {data.map(({ title, description, icon }, index) => (
                 <Grid key={String(index)} item xs={12} md={6}>
                   <Box sx={{ px: 2, py: 1.5, boxShadow: 1, borderRadius: 4, display: 'flex', alignItems: 'center' }}>
