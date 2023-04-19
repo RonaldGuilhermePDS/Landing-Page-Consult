@@ -3,9 +3,9 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Excelência no atendimento',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'Fiquei muito satisfeito com o atendimento da Consult ST Engenharia. A equipe foi muito prestativa e esclareceu todas as minhas dúvidas com muita paciência e profissionalismo.',
     user: {
       id: 1,
       name: 'Luis Sera',
@@ -15,9 +15,9 @@ export const data: Array<Testimonial> = [
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Soluções personalizadas',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'A Consult ST Engenharia ofereceu soluções personalizadas para a minha empresa, atendendo às nossas necessidades específicas e superando as nossas expectativas.',
     user: {
       id: 1,
       name: 'Riski',
@@ -27,9 +27,9 @@ export const data: Array<Testimonial> = [
   },
   {
     id: 3,
-    title: 'Very complete class',
+    title: 'Compromisso com a qualidade',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Eu confio na Consult ST Engenharia para fornecer serviços de alta qualidade. Eles têm um forte compromisso com a qualidade e fazem questão de garantir que tudo seja feito de acordo com os mais altos padrões.',
     user: {
       id: 1,
       name: 'Nguyễn Văn',
@@ -39,9 +39,9 @@ export const data: Array<Testimonial> = [
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'Confiabilidade',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Sempre que preciso de serviços de segurança do trabalho e meio ambiente, eu recorro à Consult ST Engenharia. Eles são confiáveis e têm uma equipe altamente capacitada para lidar com todas as nossas demandas.',
     user: {
       id: 1,
       name: 'Diana Jordan',
@@ -51,9 +51,9 @@ export const data: Array<Testimonial> = [
   },
   {
     id: 5,
-    title: 'Detailed learning materials',
+    title: 'Resultados comprovados',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'A Consult ST Engenharia entregou resultados comprovados para a minha empresa. Graças aos serviços prestados, conseguimos melhorar a segurança e saúde no ambiente de trabalho e otimizar os nossos processos.',
     user: {
       id: 1,
       name: 'Ashley Graham',
