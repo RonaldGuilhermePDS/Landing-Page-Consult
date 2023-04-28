@@ -19,9 +19,9 @@ const HomeNewsLetter: FC = () => {
           }}
         >
           <Typography color="primary.contrastText" variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
-            Subscribe to Our News Letter
+            Que tal entrar em contato conosco?
           </Typography>
-          <Typography color="primary.contrastText" sx={{ mb: 6 }}>Subscribe to our newsletter to get information about our courses.</Typography>
+          <Typography color="primary.contrastText" sx={{ mb: 6 }}>Envie um email para que possamos entender a sua necessidade.</Typography>
 
           <Box
             sx={{
@@ -43,11 +43,11 @@ const HomeNewsLetter: FC = () => {
                 mr: { xs: 0, md: 3 },
                 mb: { xs: 2, md: 0 },
               }}
-              placeholder="Enter your Email Address"
+              placeholder="Seu endereço de email"
             />
             <Box>
-              <StyledButton disableHoverEffect size="large">
-                Subscribe
+              <StyledButton color='light' size="large" disableHoverEffect sx={{ color: 'primary.main' }}>
+                Enviar
               </StyledButton>
             </Box>
           </Box>
