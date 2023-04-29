@@ -72,7 +72,7 @@ const SocialLinks: FC = () => {
           m: 0,
           p: 0,
           lineHeight: 0,
-          borderRadius: 3,
+          borderRadius: 5,
           listStyle: 'none',
         }}
       >
