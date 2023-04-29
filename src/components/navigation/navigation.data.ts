@@ -7,18 +7,18 @@ export const navigations: Navigation[] = [
   },
   {
     label: 'O que fazemos?',
-    path: 'popular-course',
+    path: '#popular-course',
   },
   {
     label: "Como atuamos?",
-    path: 'feature',
+    path: '#feature',
   },
   {
     label: 'Satisfação dos clientes',
-    path: 'testimonial',
+    path: '#testimonial',
   },
   {
     label: 'Nossos colaboradores',
-    path: 'mentors',
+    path: '#mentors',
   },
 ]
