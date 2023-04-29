@@ -11,7 +11,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'Whatsapp',
-    link: 'https://wa.me/5598970208536',
+    link: 'https://wa.me/5598981488101',
     icon: '/images/icons/whatsapp.svg',
   },
   {
