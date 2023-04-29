@@ -47,7 +47,7 @@ const HomeNewsLetter: FC = () => {
             />
             <Box>
               <StyledButton color='light' size="large" disableHoverEffect>
-                <Typography color="primary.main">
+                <Typography color="primary.main" fontWeight="500" >
                   Enviar
                 </Typography>
               </StyledButton>
