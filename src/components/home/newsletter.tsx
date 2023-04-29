@@ -46,8 +46,10 @@ const HomeNewsLetter: FC = () => {
               placeholder="Seu endereço de email"
             />
             <Box>
-              <StyledButton color='light' size="large" disableHoverEffect sx={{ color: 'primary.main' }}>
-                Enviar
+              <StyledButton color='light' size="large" disableHoverEffect>
+                <Typography color="primary.main">
+                  Enviar
+                </Typography>
               </StyledButton>
             </Box>
           </Box>
