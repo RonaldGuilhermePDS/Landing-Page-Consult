@@ -43,13 +43,13 @@ const FooterNavigation: FC = () => {
       <Grid item xs={12} md={6}>
         <FooterSectionTitle title="Menu" />
         {pageMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={path} />
+          <NavigationItem key={index + `#${path}`} label={label} path={`#${path}`} />
         ))}
       </Grid>
       <Grid item xs={12} md={4}>
         <FooterSectionTitle title="About" />
         {companyMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={path} />
+          <NavigationItem key={index + `#${path}`} label={label} path={`#${path}`} />
         ))}
       </Grid>
     </Grid>
